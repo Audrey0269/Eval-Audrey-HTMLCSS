@@ -1,10 +1,30 @@
+/*NEW POLICE*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap');
+
+
+
+
+
 /*SUR LA PAGE ENTIERE*/
 li{
     list-style: none;
 }
 
+html{
+    width: 1500px;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+header, main, footer{
+    margin: 25px 50px 25px 50px;
+}
 
 
+a{
+    text-decoration: none;
+    color: blue;
+}
 
 
 /*HELPERS*/
@@ -12,23 +32,245 @@ li{
     display: flex;
 }
 
-.fontweight-bold{
+
+.space-around{
+    justify-content: space-between;
+}
+
+.bold{
     font-weight: bold;
 }
 
+.colorblue{
+    color: blue;
+}
 
 .margin-left{
-    margin-left: 10px;
+    margin-left: 100px;
 }
+
+.padding-left{
+    padding-left: 0px;
+}
+
+.margin-top{
+    margin-top: 35px;
+}
+
+.image-hebergements{
+    height: 150px;
+    width: 250px;
+}
+
+.image-populaire{
+    height: 120px;
+    width: 130px;
+}
+
+.image-act-grande{
+    height: 400px;
+    width: 300px;
+}
+
+.image-act-petite{
+    height: 200px;
+    width: 300px;
+}
+
+
+.color-gray{
+    background-color: gray;
+}
+
+.border{
+    border: 1px solid black;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.bord-arrondi{
+    border-radius: 20px;
+}
+
 
 
 
 /*HEADER*/
-
-nav + div{
-    background: url(../logo/Reservia@3x.png);
+.icone-localisation{
+    background-color: rgb(212, 212, 212);
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 30% 0% 0% 30%;
+    padding: 15px 10px 0px 10px;
 }
 
+.text-localisation{
+    border: 1px solid rgb(212, 212, 212);
+    padding: 0px 40px 0px 10px;
+}
+
+.recherche button{
+    border: 1px solid blue;
+    height: 60px;
+    width: 100px;
+    border-radius: 0% 20% 20% 0%;
+    background-color: blue;
+    color: white;
+}
+
+
+
+.filtres{
+    padding-top: 10px;
+    padding-right: 40px;
+}
+
+
+
+.economique li{
+    padding-top: 5px;
+    padding-left: 5px ;
+    border:1px solid rgb(212, 212, 212);
+    border-radius: 25px;
+    width: 170px;
+    margin-right: 20px;
+}
+
+.economique li i{
+    margin-right: 20px;
+    background-color: skyblue;
+    color: blue;
+    border-radius: 25px;
+    padding: 5px 5px; 
+}
+
+
+.familial li{
+    padding-top: 5px;
+    padding-left: 5px ;
+    border:1px solid rgb(212, 212, 212);
+    border-radius: 25px;
+    width: 120px;
+    margin-right: 20px;
+}
+
+.familial li i{
+    margin-right: 20px;
+    background-color: skyblue;
+    color: blue;
+    border-radius: 25px;
+    padding: 5px 5px;
+}
+
+
+.romantique li{
+    padding-top: 5px;
+    padding-left: 5px ;
+    border:1px solid rgb(212, 212, 212);
+    border-radius: 25px;
+    width: 150px;
+    margin-right: 20px;
+}
+
+.romantique li i{
+    margin-right: 20px;
+    background-color: skyblue;
+    color: blue;
+    border-radius: 25px;
+    padding: 5px 5px;
+}
+
+
+.animals li{
+    padding-top: 5px;
+    padding-left: 5px ;
+    border:1px solid rgb(212, 212, 212);
+    border-radius: 25px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.animals li i{
+    margin-right: 20px;
+    background-color: skyblue;
+    color: blue;
+    border-radius: 25px;
+    padding: 5px 5px;
+    
+}
+
+
+
+
+
+
+
+
+/*----------MAIN------------*/
+
+/*INFO*/
+main .info i{
+    margin-right: 10px;
+}
+
+
+/*HEBERGEMENT*/
+.zone-hebergements{
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+.hebergement{
+    width: 900PX;
+    margin-right: 40px;
+    padding: 40px;
+    border-radius: 25px;
+}
+
+.populaire{
+    width:300px ;
+    margin-right: 40px;
+    padding: 40px;
+    border-radius: 25px;
+}
+
+
+/*HEBERGEMENT*/
+.zone-herbergements{
+    background-color: white;
+}
+
+
+
+/*BLOC MAIN BAS*/
+.bloc-main-bas{
+    margin-top: 50px;
+}
+
+.bloc-main-bas-gauche{
+    margin-top: 20px;
+}
+
+.vieux-port{
+    width: 350px ;
+}
+
+.fort-et-iles{
+    width: 350px ;
+}
+
+.parc-national{
+    width: 350px ;
+}
+
+.notre-dame-et-parc{
+    width: 350px ;
+}
 
 
 
@@ -43,5 +285,12 @@ footer li{
     padding-bottom: 5px;
 }
 
+.nos-hebergements{
+    margin-left: 200px;
+}
+
+.assistance{
+    margin-left: 300px;
+}
 
 
