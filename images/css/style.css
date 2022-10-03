@@ -1,0 +1,47 @@
+/*SUR LA PAGE ENTIERE*/
+li{
+    list-style: none;
+}
+
+
+
+
+
+/*HELPERS*/
+.flex{
+    display: flex;
+}
+
+.fontweight-bold{
+    font-weight: bold;
+}
+
+
+.margin-left{
+    margin-left: 10px;
+}
+
+
+
+/*HEADER*/
+
+nav + div{
+    background: url(../logo/Reservia@3x.png);
+}
+
+
+
+
+
+
+/*----------FOOTER------------*/
+footer ul{
+    padding-left: 0px;
+}
+
+footer li{
+    padding-bottom: 5px;
+}
+
+
+
