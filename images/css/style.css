@@ -1,11 +1,11 @@
-/*NEW POLICE*/
+/*----------------------NEW POLICE--------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap');
 
 
 
 
 
-/*SUR LA PAGE ENTIERE*/
+/*----------------SUR LA PAGE ENTIERE----------------*/
 li{
     list-style: none;
 }
@@ -20,18 +20,17 @@ header, main, footer{
     margin: 25px 50px 25px 50px;
 }
 
-
 a{
     text-decoration: none;
-    color: blue;
 }
 
 
-/*HELPERS*/
+
+
+/*----------------------HELPERS------------------------*/
 .flex{
     display: flex;
 }
-
 
 .space-around{
     justify-content: space-between;
@@ -45,63 +44,49 @@ a{
     color: blue;
 }
 
-.margin-left{
-    margin-left: 100px;
+.marginleft-null{
+    margin-left: 0xp;
 }
-
-.padding-left{
-    padding-left: 0px;
-}
-
-.margin-top{
-    margin-top: 35px;
-}
-
-.image-hebergements{
-    height: 150px;
-    width: 250px;
-}
-
-.image-populaire{
-    height: 120px;
-    width: 130px;
-}
-
-.image-act-grande{
-    height: 400px;
-    width: 300px;
-}
-
-.image-act-petite{
-    height: 200px;
-    width: 300px;
-}
-
 
 .color-gray{
-    background-color: gray;
-}
-
-.border{
-    border: 1px solid black;
+    background-color: rgb(240, 238, 238);
 }
 
 .wrap{
     flex-wrap: wrap;
 }
 
-.bord-arrondi{
-    border-radius: 20px;
+.border{
+    border: 1px solid black;
 }
 
 
+/*----------------NAVIGATION------------------*/
+
+.nav{
+    padding-left: 0px;
+}
+
+/*Text Hebergement*/
+.bordertop{
+    border-top: 4px solid blue;
+    padding-top: 22px;
+}
+
+.margin-left{
+    margin-left: 100px;
+}
+
+.colorblack{
+    color: rgb(0, 0, 0);
+}
 
 
-/*HEADER*/
+/*-------------------HEADER (hors Nav)--------------------*/
 .icone-localisation{
     background-color: rgb(212, 212, 212);
     border: 1px solid rgb(212, 212, 212);
-    border-radius: 30% 0% 0% 30%;
+    border-radius: 15px 0px 0px 15px;
     padding: 15px 10px 0px 10px;
 }
 
@@ -110,144 +95,183 @@ a{
     padding: 0px 40px 0px 10px;
 }
 
+.text-localisation p{
+    margin: 10px 0px;
+    padding-top: 5px;
+}
+
 .recherche button{
     border: 1px solid blue;
-    height: 60px;
-    width: 100px;
-    border-radius: 0% 20% 20% 0%;
+    height: 50px;
+    width: 120px;
+    border-radius: 0px 15px 15px 0px;
     background-color: blue;
     color: white;
 }
 
 
 
+
+
+.padding-left{
+    padding-left: 0px;
+}
+.margin-top{
+    margin-top: 35px;
+}
 .filtres{
     padding-top: 10px;
     padding-right: 40px;
 }
 
-
-
 .economique li{
-    padding-top: 5px;
-    padding-left: 5px ;
+    padding-top: 1px;
+    padding-left: 1px ;
     border:1px solid rgb(212, 212, 212);
     border-radius: 25px;
     width: 170px;
     margin-right: 20px;
 }
 
+
 .economique li i{
     margin-right: 20px;
     background-color: skyblue;
     color: blue;
     border-radius: 25px;
-    padding: 5px 5px; 
+    padding: 6px;
 }
 
-
 .familial li{
-    padding-top: 5px;
-    padding-left: 5px ;
+    padding-top: 1px;
+    padding-left: 1px ;
     border:1px solid rgb(212, 212, 212);
     border-radius: 25px;
     width: 120px;
     margin-right: 20px;
 }
-
 .familial li i{
     margin-right: 20px;
     background-color: skyblue;
     color: blue;
     border-radius: 25px;
-    padding: 5px 5px;
+    padding: 6px;
 }
 
-
 .romantique li{
-    padding-top: 5px;
-    padding-left: 5px ;
+    padding-top: 1px;
+    padding-left: 1px ;
     border:1px solid rgb(212, 212, 212);
     border-radius: 25px;
     width: 150px;
     margin-right: 20px;
 }
-
 .romantique li i{
     margin-right: 20px;
     background-color: skyblue;
     color: blue;
     border-radius: 25px;
-    padding: 5px 5px;
+    padding: 6px;
 }
 
-
 .animals li{
-    padding-top: 5px;
-    padding-left: 5px ;
+    padding-top: 1px;
+    padding-left: 1px ;
     border:1px solid rgb(212, 212, 212);
     border-radius: 25px;
     width: 200px;
     margin-right: 20px;
 }
-
 .animals li i{
     margin-right: 20px;
     background-color: skyblue;
     color: blue;
     border-radius: 25px;
-    padding: 5px 5px;
-    
+    padding: 6px;
 }
 
 
 
 
-
-
-
-
-/*----------MAIN------------*/
-
+/*-----------------------MAIN--------------------*/
 /*INFO*/
 main .info i{
     margin-right: 10px;
 }
 
-
-/*HEBERGEMENT*/
+.hebergement{
+    width: 800PX;
+    margin-right: 40px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 25px;
+}
 .zone-hebergements{
     background-color: white;
     border: 3px solid white;
+    box-shadow: 5px 5px 5px rgba(151, 147, 147, 0.671);
     border-radius: 25px;
     padding: 5px;
     margin: 10px;
 }
-
-
-.hebergement{
-    width: 900PX;
-    margin-right: 40px;
-    padding: 40px;
-    border-radius: 25px;
+.image-hebergements{
+    height: 130px;
+    width: 230px;
+}
+.bord-arrondi-bas{
+    border-radius: 20px 20px 0px 0px;
+}
+.bord-arrondi-droite{
+    border-radius: 20px 0px 0px 20px;
+    margin-right: 10px;
+}
+.titre3{
+    margin: 5px 10px;
+}
+.logo-populaire{
+    justify-content: space-between;
 }
 
+.star{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+
+
+
+/*BLOC POPULAIRE*/
 .populaire{
-    width:300px ;
+    width:370px ;
     margin-right: 40px;
-    padding: 40px;
+    padding: 20px 40px 20px 40px;
     border-radius: 25px;
 }
 
-
-/*HEBERGEMENT*/
-.zone-herbergements{
+.image-populaire{
+    height: 120px;
+    width: 130px;
+}
+.zone-populaire{
     background-color: white;
+    border: 3px solid white;
+    box-shadow: 5px 5px 5px rgba(151, 147, 147, 0.671);
+    border-radius: 25px;
+    padding: 5px 5px 5px 5px;
+    margin: 15px 9px 9px 9px;
+}
+.zp-marge{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.icone-graph{
+    padding-top: 25px;
+    padding-right: 20px;
 }
 
 
 
-/*BLOC MAIN BAS*/
+/*BLOC ACTIVITES*/
 .bloc-main-bas{
     margin-top: 50px;
 }
@@ -257,26 +281,53 @@ main .info i{
 }
 
 .vieux-port{
-    width: 350px ;
+    height: 460px;
+    box-shadow: 5px 5px 5px rgba(151, 147, 147, 0.671);
+    border-radius: 25px;
+    margin: 0px 41px 0px 0px;
 }
 
+.image-act-grande{
+    height: 400px;
+    width: 300px; 
+}
 .fort-et-iles{
-    width: 350px ;
+    margin-right: 41px;
 }
 
+.image-act-petite{
+    height: 155px;
+    width: 300px;
+}
 .parc-national{
-    width: 350px ;
+    height: 460px;
+    box-shadow: 5px 5px 5px rgba(151, 147, 147, 0.671);
+    border-radius: 25px;
+    margin-right: 41px;
 }
 
 .notre-dame-et-parc{
-    width: 350px ;
+    margin-right: 41px;
+}
+
+.shadow{
+    height: 215px;
+    box-shadow: 5px 5px 5px rgba(151, 147, 147, 0.671);
+    border-radius: 25px;
+    margin-bottom: 28px;
+}
+
+.titre3-bas{
+    margin-top: 10px;
+    padding-left: 20px;
 }
 
 
 
 
 
-/*----------FOOTER------------*/
+
+/*-----------------FOOTER------------------*/
 footer ul{
     padding-left: 0px;
 }
@@ -293,4 +344,7 @@ footer li{
     margin-left: 300px;
 }
 
+.a-propos{
+    padding-left: 30px;
+}
 
