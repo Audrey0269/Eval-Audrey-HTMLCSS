@@ -348,3 +348,36 @@ footer li{
     padding-left: 30px;
 }
 
+
+
+
+
+
+/*----------------------RESPONSIVE--------------------*/
+
+/*PETIT ECRAN*/
+@media screen and (max-width:768px) {
+    .petit-ecran-column {
+        display: flex;
+        flex-direction:column ;
+    }
+
+    .bordertop{
+        border-top: none;
+        border-bottom: 4px solid blue ;
+    }
+
+    .petit-ecran-nav li:nth-of-type(2){
+        border-bottom: 4px solid rgb(172, 172, 179) ;
+    }
+
+
+}
+
+
+
+
+/*TABLETTE*/
+@media screen and (max-width:768px) and (max-width:996px) {
+    
+}
