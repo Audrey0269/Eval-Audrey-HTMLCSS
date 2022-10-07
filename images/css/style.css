@@ -463,8 +463,6 @@ footer li{
         border: none;
     }
 
-    /*manque navigation : sinon dans html ajout de div mais besoin de modif le grand ecran... */
-
 
 
 
@@ -523,8 +521,6 @@ footer li{
 
 
     /*-------ACTIVITES---------*/
-    /*VOIR pour que les blocs se centre automatiquement : en grandissant/rapetissant la pge*/
-
     .pe-column{
         flex-direction: column;
     }
@@ -534,7 +530,6 @@ footer li{
         width: 430px;
     }
 
-    /*test = aucun changement (manque photo) a recadrer ?*/
     .image-act-petite {
         width: 100%;
     }
